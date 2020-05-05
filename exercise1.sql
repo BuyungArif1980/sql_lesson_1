@@ -1,8 +1,8 @@
 /*
-dibawah "FROM purchases" tambahkan code untuk
-mengambil baris dengan nilai "10" atau lebih dari kolom "price"
+dibawah "FROM purchases" tambahkan code untuk mengambil
+baris dimana nilai "name" mengandung kata "puding"
 */
 
 SELECT *
 FROM purchases
-WHERE price >= 10;
+WHERE name LIKE '%puding%';
