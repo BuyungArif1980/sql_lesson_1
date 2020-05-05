@@ -1,3 +1,8 @@
--- Akses kolom "name" dan "price" dari tabel "purchases"
-SELECT name, price
-FROM purchases;
+/*
+Dibawah "FROM purchases" tambahkan code untuk mengambil baris dengan
+nilai "makanan" dikolom "category"
+*/
+
+SELECT *
+FROM purchases
+WHERE category = "makanan";
