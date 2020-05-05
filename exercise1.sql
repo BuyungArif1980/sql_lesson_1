@@ -1,8 +1,8 @@
 /*
-Dibawah "FROM purchases" tambahkan code untuk mengambil baris dengan
-nilai "makanan" dikolom "category"
+dibawah baris "FROM purchases" tambahkan code untuk
+mendapatkan baris dengan nilai "10" dikolom "price"
 */
 
 SELECT *
 FROM purchases
-WHERE category = 'makanan';
+WHERE price = 10;
