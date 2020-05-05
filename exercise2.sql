@@ -1,8 +1,8 @@
 /*
-dibawah "FROM purchases" tambahkan code untuk
-mengambil baris dimana nilai "name" diakhiri dengan kata "puding"
+dibawah "FROM purchases" tambahkan code untuk mendapatkan semua baris dimana
+kolom "name" tidak mengandung kata "puding"
 */
 
 SELECT *
 FROM purchases
-WHERE name LIKE '%puding';
+WHERE NOT name LIKE '%puding%';

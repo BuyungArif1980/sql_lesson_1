@@ -1,8 +1,8 @@
 /*
-dibawah "FROM purchases" tambahkan code untuk
-mengambil baris dimana nilai "name" dimulai dengan kata "puding"
+dibawah "FROM purchases" tambahkan code untuk mendapatkan semua baris dimana
+kolom "character_name" tidak mengandung kata "Ninja Ken"
 */
 
 SELECT *
 FROM purchases
-WHERE name LIKE 'puding%';
+WHERE NOT character_name = 'Ninja Ken';
