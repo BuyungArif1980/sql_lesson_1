@@ -1,0 +1,31 @@
+id;name;price;character_name;category;purchased_at
+1;casing smartphone;15;Ninja Ken;lainnya;2018-10-10
+2;rantangan;5;Guru Domba;makanan;2018-10-10
+3;baju;30;Birdie;lainnya;2018-10-10
+4;buku pelajaran;20;Ninja Ken;lainnya;2018-10-10
+5;biaya kereta;5;Guru Domba;perjalanan;2018-10-10
+6;puding;2;Ninja Ken;makanan;2018-10-11
+7;bola;25;Baby Ben;lainnya;2018-10-11
+8;kalkulator;7;Guru Domba;lainnya;2018-10-13
+9;rantangan;10;Ninja Ken;makanan;2018-10-13
+10;kue puding;5;Ninja Ken;makanan;2018-10-13
+11;biaya taksi;12;Birdie;perjalanan;2018-10-17
+12;permen kapas;1;Baby Ben;makanan;2018-10-18
+13;kaca mata;50;Guru Domba;lainnya;2018-10-18
+14;puding panggang;2;Ninja Ken;makanan;2018-10-18
+15;tas;80;Birdie;lainnya;2018-10-20
+16;kue susu kedelai;3;Birdie;makanan;2018-10-20
+17;roti lapis;6;Ninja Ken;makanan;2018-10-20
+18;set ikan bakar;6;Guru Domba;makanan;2018-10-20
+19;buku tulis;2;Baby Ben;lainnya;2018-10-21
+20;pensil;1;Baby Ben;lainnya;2018-10-24
+21;kuas;8;Birdie;lainnya;2018-10-24
+22;biaya parkir;2;Ninja Ken;perjalanan;2018-10-28
+23;mentega;2;Guru Domba;makanan;2018-10-28
+24;kentang;1;Guru Domba;makanan;2018-10-28
+25;puding susu;1;Ninja Ken;makanan;2018-10-28
+26;biaya bus;2;Guru Domba;perjalanan;2018-11-02
+27;pancake;8;Birdie;makanan;2018-11-02
+28;puding panggang mochi;1;Ninja Ken;makanan;2018-11-03
+29;perlengkapan elektronik;54;Ninja Ken;lainnya;2018-11-07
+30;pelembut kain;6;Birdie;lainnya;2018-11-07
