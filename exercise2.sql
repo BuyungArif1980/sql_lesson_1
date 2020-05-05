@@ -1,3 +1,3 @@
--- Akses kolom "price" dari table "purchases"
-SELECT price
+-- Akses semua kolom dari tabel "purchases"
+SELECT *
 FROM purchases;
