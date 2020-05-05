@@ -1,8 +1,8 @@
 /*
-dibawah baris "FROM purchases" tambahkan code untuk
-mendapatkan baris dengan nilai "10" dikolom "price"
+dibawah "FROM purchases" tambahkan code untuk
+mengambil baris dengan nilai "10" atau lebih dari kolom "price"
 */
 
 SELECT *
 FROM purchases
-WHERE price = 10;
+WHERE price >= 10;
