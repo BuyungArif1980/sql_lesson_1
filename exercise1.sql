@@ -1,8 +1,8 @@
 /*
-dibawah "FROM purchases" tambahkan code untuk mendapatkan semua baris dimana
-kolom "character_name" tidak mengandung kata "Ninja Ken"
+dibawah "FROM purchases" tambahkan code untuk mengambil baris
+dimana kolom  "price" adalah NULL
 */
 
 SELECT *
 FROM purchases
-WHERE NOT character_name = 'Ninja Ken';
+WHERE price IS NULL;

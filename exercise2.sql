@@ -1,8 +1,8 @@
 /*
-dibawah "FROM purchases" tambahkan code untuk mendapatkan semua baris dimana
-kolom "name" tidak mengandung kata "puding"
+dibawah "FROM purchases" tambahkan code untuk mengambil baris
+dimana kolom "price" adalah NOT NULL
 */
 
 SELECT *
 FROM purchases
-WHERE NOT name LIKE '%puding%';
+WHERE price IS NOT NULL;
