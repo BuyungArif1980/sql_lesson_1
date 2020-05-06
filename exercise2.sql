@@ -1,8 +1,10 @@
 /*
 dibawah "FROM purchases" tambahkan code untuk mengambil baris
-dimana kolom "price" adalah NOT NULL
+dimana nilai kolom "category" adalah "makanan"
+dan nilai kolom "character_name" adalah "Ninja Ken"
 */
 
 SELECT *
 FROM purchases
-WHERE price IS NOT NULL;
+WHERE category = 'makanan'
+OR character_name = 'Ninja Ken';
