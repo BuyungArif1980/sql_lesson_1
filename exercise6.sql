@@ -5,5 +5,6 @@ dengan urutan terbesar dari kolom "price"
 
 SELECT *
 FROM purchases
+WHERE price IS NOT NULL
 ORDER BY price DESC
 LIMIT 5;
