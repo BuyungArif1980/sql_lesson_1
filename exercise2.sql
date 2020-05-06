@@ -1,9 +1,8 @@
 /*
-dibawah WHERE character_name = "Ninja Ken",
-tambahkan code untuk menampilkan hasil maksimum 10 baris
+Dibawah "FROM purchases" tambahkan code untuk baris dimana
+kolom "name" mengandung string "puding"
 */
 
 SELECT *
 FROM purchases
-WHERE character_name = 'Ninja Ken'
-LIMIT 10;
+WHERE name LIKE '%puding%';
