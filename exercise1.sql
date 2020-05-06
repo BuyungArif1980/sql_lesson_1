@@ -1,10 +1,8 @@
 /*
-dibawah "FROM purchases" tambahkan code untuk mengambil baris
-dimana nilai kolom "category" adalah "makanan"
-dan nilai kolom "character_name" adalah "Guru Domba"
+dibawah "FROM purchases" tambahkan code untuk
+menampilkan baris dari nilai yang terbesar dikolom "price"
 */
 
 SELECT *
 FROM purchases
-WHERE category = 'makanan'
-AND character_name = 'Guru Domba';
+ORDER BY price DESC;

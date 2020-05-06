@@ -1,10 +1,9 @@
 /*
-dibawah "FROM purchases" tambahkan code untuk mengambil baris
-dimana nilai kolom "category" adalah "makanan"
-dan nilai kolom "character_name" adalah "Ninja Ken"
+dibawah WHERE character_name = "Ninja Ken", tambahkan code untuk
+menampilkan baris dari nilai terkecil dikolom "price"
 */
 
 SELECT *
 FROM purchases
-WHERE category = 'makanan'
-OR character_name = 'Ninja Ken';
+WHERE character_name = 'Ninja Ken'
+ORDER BY price ASC;
