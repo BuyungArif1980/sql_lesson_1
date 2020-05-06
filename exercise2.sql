@@ -1,9 +1,9 @@
 /*
-dibawah WHERE character_name = "Ninja Ken", tambahkan code untuk
-menampilkan baris dari nilai terkecil dikolom "price"
+dibawah WHERE character_name = "Ninja Ken",
+tambahkan code untuk menampilkan hasil maksimum 10 baris
 */
 
 SELECT *
 FROM purchases
 WHERE character_name = 'Ninja Ken'
-ORDER BY price ASC;
+LIMIT 10;
